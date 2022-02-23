@@ -1,0 +1,28 @@
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class CapitalOneBank{
+
+	public static void main(String[] args) {
+		//Have to setup Selenium in this place
+		System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.get("https://www.capitalone.com/");
+		driver.findElement(By.xpath("//*[@id=\"card\"]/span")).click();
+		driver.findElement(By.xpath("//*[@id=\"bank\"]/span")).click();
+		driver.findElement(By.xpath("//*[@id=\"auto\"]/span")).click();
+		driver.findElement(By.xpath("//*[@id=\"unav-l1-search\"]")).click();
+		driver.findElement(By.xpath("//*[@id=\"searchTextInput\"]")).sendKeys("auto");
+		driver.findElement(By.xpath("//*[@id=\"router-map\"]/route-wrapping-component/recurse/span/page/recurse/span/sitesearch/main/section[1]/div/div/form/button")).click();
+		
+		
+		
+		//*[@id="router-map"]/route-wrapping-component/recurse/span/page/recurse/span/sitesearch/main/section[1]/div/div/form/button
+		//driver.close();	
+		
+
+	}
+}

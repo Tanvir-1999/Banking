@@ -1,0 +1,14 @@
+//This Project is related to CoreJavaBrashUp1 from Rahul Shattey.
+public class CoreJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int myNum = 5; 
+		String Website= "Itpfus";
+		char letter = 'r';
+		double dec= 5.99; 
+		boolean myCart= true; 
+		System.out.println("myNum is the value stored in the myNum variable");
+	}
+
+}

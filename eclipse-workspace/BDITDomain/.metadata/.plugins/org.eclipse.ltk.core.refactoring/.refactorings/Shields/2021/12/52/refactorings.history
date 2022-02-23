@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;dsfsdf.java&apos; to &apos;ProcessOrder.java&apos;&#x0D;&#x0A;- Original project: &apos;Shields&apos;&#x0D;&#x0A;- Original element: &apos;dsfsdf.java&apos;&#x0D;&#x0A;- Renamed element: &apos;ProcessOrder.java&apos;" description="Rename compilation unit &apos;dsfsdf.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{dsfsdf.java" name="ProcessOrder.java" references="false" stamp="1640032488158" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+
+public class Afree_Class {
+
+	public static void main(String[] args) {
+		//Have to setup Selenium in this place
+		System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
+		
+		
+	}
+
+}
+
+
